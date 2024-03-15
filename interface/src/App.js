@@ -8,13 +8,17 @@ function App() {
   }, []);
   const result = async (e) => {
     try {
-      const r = await fetch('http://localhost:5000', {
-        method: 'GET',
+      const r = await fetch(
+        'https://display-board-62gubiwdm-overlordddx03.vercel.app/',
+        // 'http://localhost:5000',
+        {
+          method: 'GET',
 
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        }
+      );
       console.log(r);
       const rd = await r.json();
       console.log('check frontend');
