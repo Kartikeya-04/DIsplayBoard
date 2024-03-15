@@ -1,0 +1,19 @@
+.Title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgb(143, 143, 50);
+}
+.title3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: brown;
+}
+.title2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: brown;
+}
+.buy {
+  font-size: 1.5rem;
+  color: darkblue;
+}
